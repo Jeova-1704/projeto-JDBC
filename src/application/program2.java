@@ -22,6 +22,12 @@ public class program2 {
             System.out.println(dep);
         }
 
+        System.out.println("\n==== TEST 3: department inserte ====");
+        Department newDepartment = new Department(null, "Programação");
+        departmentDao.insert(newDepartment);
+        System.out.println("Department inserte successfully");
+
+
 
 
     }

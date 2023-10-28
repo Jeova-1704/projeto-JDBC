@@ -47,7 +47,6 @@ public class SellerDaoJDBC implements SellerDao {
             } else {
                 throw new DbException("Error, nenhuma linha foi alterada");
             }
-
         }catch (SQLException e) {
             throw new DbException(e.getMessage());
     } finally {
