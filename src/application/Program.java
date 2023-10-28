@@ -5,7 +5,6 @@ import model.dao.SellerDao;
 import model.entities.Department;
 import model.entities.Seller;
 
-import java.util.Date;
 import java.util.List;
 import java.util.Scanner;
 
@@ -16,7 +15,6 @@ public class Program {
 
         System.out.println("==== TEST 1: seller findById ====");
         Seller seller = sellerDao.findById(10);
-
         System.out.println(seller);
 
         System.out.println("\n==== TEST 2: seller findByDepartment ====");
